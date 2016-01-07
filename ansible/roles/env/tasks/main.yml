@@ -1,0 +1,11 @@
+---
+- name: Install ansible and pip
+  apt: name={{ item }} state=latest
+  with_items:
+    - ansible
+    - python-pip
+
+- name: Install boto
+  pip: name={{ item }} state=latest
+  with_items:
+    - boto

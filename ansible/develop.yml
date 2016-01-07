@@ -1,0 +1,9 @@
+---
+- name: Build a Nodejs development environment
+  hosts: all
+  sudo: yes
+  sudo_user: root
+  roles:
+    - apt-upgrade
+    - nodejs
+    - env

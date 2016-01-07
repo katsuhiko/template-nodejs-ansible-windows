@@ -1,4 +1,7 @@
 ---
+- name: Install serverless
+  command: sudo -iu vagrant npm install serverless -g
+
 - name: Install ansible and pip
   apt: name={{ item }} state=latest
   with_items:

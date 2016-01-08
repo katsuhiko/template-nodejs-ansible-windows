@@ -9,10 +9,6 @@
 
 ## How To Build The Virtual Machine
 
-Vagrant:
-
-    host $ vagrant plugin install vagrant-vbguest
-
 Building the virtual machine:
 
     host $ git clone https://github.com/katsuhiko/template-nodejs-ansible-windows.git
